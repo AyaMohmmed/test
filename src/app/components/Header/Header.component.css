@@ -1,0 +1,242 @@
+.intro-page {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient( #add8e6 , #ffcbf2 , rgb(255, 255, 255) 40.01%);
+    background-size: cover;
+     flex-direction: column;
+    position: relative;
+  }    
+    
+    
+     .body{
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-size: cover;
+        flex-direction: column;
+        position: relative;
+        
+     }
+
+   .form{
+        width: 530px;
+        height: 528px; 
+        padding: 32px;
+        background: white; 
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.08);
+        border-radius: 16px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start; 
+        gap: 16px;
+        display: inline-flex;
+        }
+    .cont-1{
+        align-self: stretch;
+        height: 70px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 6px;
+        display: flex;
+    }
+    .cont-2{
+        align-self: stretch;
+        height: 70px; 
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 6px; 
+        display: flex;
+    }
+    .name{
+        color: #101828;
+        font-size: 14px;
+        font-family: Inter;
+        font-weight: 500;
+        line-height: 20px;
+        word-wrap: break-word;
+    }
+    #name{
+        width: 438px;
+        color: #667085;
+        font-size: 14px;
+        font-family: Inter;
+        font-weight: 400; 
+        line-height: 24px;
+        word-wrap: break-word;
+        border: none;
+    } 
+    .cont-3{
+        align-self: stretch;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: white;
+        box-shadow: 0px 0px 0px 4px rgba(170, 0, 255, 0.10);
+        border-radius: 8px;
+        overflow: hidden;
+        border: 1px #AA00FF solid;
+        backdrop-filter: blur(80px);
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+        display: inline-flex;
+        }
+    .cont-4{
+        flex: 1 1 0;
+        height: 24px;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+        display: flex;
+    }
+    .cont-5{
+        align-self: stretch;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: #F5F5F5; 
+        border-radius: 8px;
+        backdrop-filter: blur(80px);
+        justify-content: flex-start; 
+        align-items: center;
+        gap: 8px;
+        display: inline-flex;
+    }
+    .email{
+        color: #101828;
+        font-size: 14px;
+        font-family: Inter;
+        font-weight: 500;
+        line-height: 20px;
+        word-wrap: break-word;
+
+    }
+    #email{
+        flex: 1 1 0;
+        color: #667085;
+        font-size: 14px;
+        font-family: Inter;
+        font-weight: 400; 
+        line-height: 24px;
+        word-wrap: break-word;
+        border: none;
+
+    }
+    .Phone{
+        color: #101828;
+        font-size: 14px;
+        font-family: Inter;
+        font-weight: 500;
+        line-height: 20px;
+        word-wrap: break-word;
+    }
+    #Phone{
+        flex: 1 1 0;
+        color: #667085;
+        font-size: 14px;
+        font-family: Inter;
+        font-weight: 400;
+        line-height: 24px;
+        word-wrap: break-word;
+        border: none;         
+
+    }
+    .message{
+        color: #101828;
+        font-size: 14px;
+        font-family: Inter;
+        font-weight: 500;
+        line-height: 20px;
+        word-wrap: break-word;
+    }
+    #message{
+        flex: 1 1 0; 
+        color: #667085;
+        font-size: 14px;
+        font-family: Inter; 
+        font-weight: 400;
+        line-height: 24px;
+        word-wrap: break-word;
+        border: none;
+    }
+    .c-m-1{
+        align-self: stretch;
+        height: 144px; 
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 6px; 
+        display: flex;
+    }
+    .c-m-2{
+        align-self: stretch;
+        flex: 1 1 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 6px;
+        display: flex;
+    }
+    .c-m-3{
+        align-self: stretch;
+        flex: 1 1 0;
+        padding-left: 14px;
+        padding-right: 14px; 
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 8px;
+        backdrop-filter: blur(80px); 
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 8px;
+        display:inline-flex;
+    }
+    .c-m-4{
+        flex: 1 1 0; 
+        height: 24px;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+        display: flex;
+    }
+    .sup-1{
+        align-self: stretch;
+        height: 46px; 
+        padding-left: 16px; 
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px; 
+        background: conic-gradient(from 173deg at 74.80% 61.60%, #7001D3 0deg, #F692F6 23deg, #BD38FF 127deg, #592BED 197deg, #8EC2DF 334deg);
+        border-radius: 80px;
+        overflow: hidden;
+        border: 1px rgba(255, 255, 255, 0.20) solid;
+        backdrop-filter: blur(80px); 
+        justify-content: center;
+        align-items: center; 
+        gap: 6px; 
+        display: inline-flex;
+    }
+    .sup-2{
+        padding-left: 2px;
+        padding-right: 2px;
+        justify-content: center; 
+        align-items: center;
+        display: flex;
+    }
+    .supmit{
+        font-size: 16px;
+        border: none;
+        color: white; 
+        font-family: Inter; 
+        font-weight: 600;
+        line-height: 24px;
+        word-wrap: break-word;
+        background: none;
+    }

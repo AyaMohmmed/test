@@ -1,0 +1,366 @@
+.hedear{
+    display: flex;
+    width: 100%;
+    padding: 16px 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid var(--Colors-Border-border-secondary, #EAECF0);
+    box-sizing: border-box;
+    flex-wrap: wrap; 
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    
+}
+.logo-title-container {
+    display: flex; 
+    align-items: center; 
+    gap: 16px;
+}
+.logo{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    gap: 16px;
+}
+.titel{
+    width: 206px;
+    height:26px ;
+    color: var(--Gray-700, #344054);
+    font-family: Inter;
+    font-size: 17.28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.92px; /* 150% */
+}
+.B-cancel{
+    display: flex;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items:center;
+    gap: 4px;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-300, #D0D5DD);
+    background: var(--Base-White, #FFF);
+    /* Shadows/shadow-xs */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.butn-c-r{
+    color: var(--Gray-700, #344054);
+    /* Text sm/Semibold */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+}
+.B-save{
+    display: flex;
+    height: 40px;
+    padding: var(--spacing-lg, 12px) 18px;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-sm, 6px);
+    border-radius: 8px;
+    border: 1px solid #592BEC;
+    background: #592BEC;
+
+    /* Shadows/shadow-xs */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+}
+.butn-save{
+    color: var(--Component-colors-Components-Buttons-Primary-button-primary-fg, #FFF);
+    /* Text md/Semibold */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+.buttons-container{
+    display: flex;
+    gap: 10px; 
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+.contentt{
+    width:  953px; 
+    height:auto; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: flex-start; 
+    align-items: flex-end; 
+    gap: 24px; 
+    display: inline-flex;
+    display: flex; /* استخدمي flex بدلاً من inline-flex */
+    margin: auto;
+    margin-top: 60px;
+}
+.interviewdetails{
+    width: 953px;
+    height:auto;
+    align-self: stretch; 
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05); 
+    border-radius: 12px; 
+    border: 1px #D0D5DD solid; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: flex;
+    display: inline-flex;
+
+    /* justify-content: space-between; /* يوزع العناصر بحيث يكون الأول على اليسار والثاني على اليمين */
+    /* width: 100%; أو أي عرض يناسب التصميم */ 
+}
+.head{
+    align-self: stretch; 
+    padding: 24px; 
+    border-bottom: 1px #D0D5DD solid; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 12px; 
+    display: inline-flex;
+}
+.icon{
+    width: 52px; 
+    height: 52px; 
+    padding: 6px; 
+    background: rgba(89, 43, 236, 0.07); 
+    border-radius: 100px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: flex;
+}
+.text{
+    width: 320px; 
+    color: #101828; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    line-height: 38px; 
+    word-wrap: break-word;
+}
+.inputs{
+    width: 953px; 
+    height: auto; 
+    padding: 24px; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 48px; 
+    /* display: inline-flex; */
+    align-self: stretch;
+
+    display: grid; /* تغيير إلى grid */
+    grid-template-columns: repeat(2, 1fr); /* عمودين متساويين */
+
+
+}
+.title{
+    width: 100%; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 6px; 
+    display: inline-flex;
+    grid-column: 1; 
+}
+
+.inputWithLabel{
+    width: 427px; 
+    height: 70px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 6px; 
+    display: inline-flex;
+}
+/* .Label{
+     فاضي
+} */
+.star{
+    color: #D92D20; 
+    font-size: 14px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    line-height: 20px; 
+    word-wrap: break-word;
+}
+.lab-titel{
+    color: #344054; 
+    font-size: 14px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    line-height: 20px; 
+    word-wrap: break-word;
+}
+.input{
+    align-self: stretch; 
+    padding-left: 14px; 
+    padding-right: 14px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    background: white; 
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05); 
+    border-radius: 8px; 
+    border: 1px #D0D5DD solid; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 8px; 
+    display: inline-flex;
+}
+.content{
+    flex: 1 1 0; 
+    height: 24px; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 8px; 
+    display: flex;
+}
+.text-input{
+    flex: 1 1 0; 
+    color: #667085; 
+    font-size: 16px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+.dropdownmenu{
+    width: 428px; 
+    height: 70px; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+    grid-column: 2; /* في العمود الثاني */
+
+}
+.inputwithlabel2{
+    align-self: stretch; 
+    height: 70px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 6px; 
+    display: flex;
+}
+.label{
+    color: #344054; 
+    font-size: 14px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    line-height: 20px; 
+    word-wrap: break-word;
+}
+.header{
+    align-self: stretch; 
+    padding-left: 6px; 
+    padding-right: 6px; 
+    padding-top: 1px; 
+    padding-bottom: 1px; 
+    background: white; 
+    border-radius: 8px; 
+    border: 1px #D0D5DD solid; 
+    justify-content: flex-start; 
+    align-items: center; 
+    display: inline-flex;
+}
+.headcontent{
+    flex: 1 1 0; 
+    height: 42px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    padding-top: 9px; 
+    padding-bottom: 9px; 
+    border-radius: 6px; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 12px; 
+    display: flex;
+}
+.icon-text{
+    flex: 1 1 0; 
+    height: 24px; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 8px; 
+    display: flex;
+}
+.d-text{
+    flex: 1 1 0; 
+    color: #667085; 
+    font-size: 16px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+.dropdownmenu2{
+    width: 428px; 
+    height: 70px; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+    grid-column: 1;
+}
+.questions{
+    width: 953px; 
+    height: 294px; 
+    background: white; 
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05); 
+    border-radius: 12px; border: 1px #D0D5DD solid; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+}
+.ques-head{
+    align-self: stretch; 
+    padding: 24px; 
+    border-bottom: 1px #D0D5DD solid; 
+    justify-content: flex-start;
+    align-items: center; 
+    gap: 12px; 
+    display: inline-flex;
+}
+.support-text{
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 4px; 
+    display: inline-flex;
+}
+.q-text{
+    align-self: stretch; 
+    color: #344054; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+.q-inputs{
+    align-self: stretch; height: 194px; padding: 24px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex;
+}
+.q-label{
+    align-self: stretch; height: 78px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 6px; display: flex;
+}
+.Labell{
+    color: #344054; font-size: 14px; font-family: Inter; font-weight: 500; line-height: 20px; word-wrap: break-word;
+}
+.q-input{
+    align-self: stretch; 
+    height: 52px; padding-left: 14px; padding-right: 14px; padding-top: 10px; padding-bottom: 10px; background: white; box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05); border-radius: 8px; border: 1px #D0D5DD solid; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex;
+}
+.q-text2{
+    flex: 1 1 0; color: #667085; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 24px; word-wrap: break-word;
+}
