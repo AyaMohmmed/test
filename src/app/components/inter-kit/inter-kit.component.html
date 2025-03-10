@@ -222,21 +222,332 @@
 
 	</div>
 </div>
-..
-<div class="content-pag"> <!-- الصفحه كلها -->
+
+<div class="content-pag">
 
 	<div class="title-content">
+		<div class="dropdown">
+			<button class="btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+				Interviews by Department
+				<svg style="margin-left: 29px;" width="48" height="40" viewBox="0 0 48 40" fill="none"
+					xmlns="http://www.w3.org/2000/svg">
+					<path d="M19 17.5L24 22.5L29 17.5" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round"
+						stroke-linejoin="round" />
+				</svg>
 
-		<!-- <mat-form-field appearance="outline" class="custom-dropdown">
-			<mat-label>Interviews by Department</mat-label>
-			<mat-select [(value)]="selectedDepartment">
-				<mat-option *ngFor="let department of departments" [value]="department">
-					{{ department }}
-				</mat-option>
-			</mat-select>
-		</mat-form-field> -->
+			</button>
 
+			<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width: 100%;">
+				<li><a class="dropdown-item" href="#">Department 1</a></li>
+				<li><a class="dropdown-item" href="#">Department 2</a></li>
+				<li><a class="dropdown-item" href="#">Department 3</a></li>
+			</ul>
+		</div>
 
+		<div class="input-group">
+			<div class="input-content">
+				<div class="SearchLg" style="position: relative ; padding-bottom: 5px;">
+					<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M17.5 17.5L14.5834 14.5833M16.6667 9.58333C16.6667 13.4954 13.4954 16.6667 9.58333 16.6667C5.67132 16.6667 2.5 13.4954 2.5 9.58333C2.5 5.67132 5.67132 2.5 9.58333 2.5C13.4954 2.5 16.6667 5.67132 16.6667 9.58333Z"
+							stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</div>
+				<input type="text" class="text-search" placeholder="Search">
+			</div>
+		</div>
 
 	</div>
+
+	<div class="department">
+		<div class="comput-it">Computing / IT</div>
+		<div class="container">
+			<div class="row">
+				<!--  1 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">IT</span>
+							</div>
+							<div class="track">IT Manager</div>
+						</div>
+					</div>
+				</div>
+				<!--  2 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">DA</span>
+							</div>
+							<div class="track">Data Architect</div>
+						</div>
+					</div>
+				</div>
+				<!--  3 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">JD</span>
+							</div>
+							<div class="track">Java Developer</div>
+						</div>
+					</div>
+				</div>
+				<!--  1 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">DA</span>
+							</div>
+							<div class="track">Data Analyst</div>
+						</div>
+					</div>
+				</div>
+				<!--  2 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">IA</span>
+							</div>
+							<div class="track">IT Auditor </div>
+						</div>
+					</div>
+				</div>
+				<!--  3 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">IC</span>
+							</div>
+							<div class="track">IT Coordinator </div>
+						</div>
+					</div>
+				</div>
+				<!--  1 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">FW</span>
+							</div>
+							<div class="track">Front End Web Developer</div>
+						</div>
+					</div>
+				</div>
+				<!--  2 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">BA</span>
+							</div>
+							<div class="track">Business Analyst</div>
+						</div>
+					</div>
+				</div>
+				<!--  3 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">ML</span>
+							</div>
+							<div class="track">Machine Learning Engineer</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="department">
+		<div class="comput-it">Design</div>
+		<div class="container">
+			<div class="row">
+				<!--  1 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">UD</span>
+							</div>
+							<div class="track">UX Designer </div>
+						</div>
+					</div>
+				</div>
+				<!--  2 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">UX</span>
+							</div>
+							<div class="track">UX Designer</div>
+						</div>
+					</div>
+				</div>
+				<!--  3 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">UX</span>
+							</div>
+							<div class="track">UX Designer</div>
+						</div>
+					</div>
+				</div>
+				<!--  1 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">UX</span>
+							</div>
+							<div class="track">UX Designer </div>
+						</div>
+					</div>
+				</div>
+				<!--  2 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">UX</span>
+							</div>
+							<div class="track">UX Designer </div>
+						</div>
+					</div>
+				</div>
+				<!--  3 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">UX</span>
+							</div>
+							<div class="track">UX Designer </div>
+						</div>
+					</div>
+				</div>
+				<!--  1 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">UX</span>
+							</div>
+							<div class="track">UX Designer </div>
+						</div>
+					</div>
+				</div>
+				<!--  2 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">UX</span>
+							</div>
+							<div class="track">UX Designer </div>
+						</div>
+					</div>
+				</div>
+				<!--  3 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">UX</span>
+							</div>
+							<div class="track">UX Designer </div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="department">
+		<div class="comput-it">Admin / Customer Service</div>
+		<div class="container">
+			<div class="row">
+				<!--  1 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">UX</span>
+							</div>
+							<div class="track">Customer Service Manager</div>
+						</div>
+					</div>
+				</div>
+				<!--  2 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">UX</span>
+							</div>
+							<div class="track">Front Desk Representative</div>
+						</div>
+					</div>
+				</div>
+				<!--  3 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">UX</span>
+							</div>
+							<div class="track">Branch Manager</div>
+						</div>
+					</div>
+				</div>
+				<!--  1 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">UX</span>
+							</div>
+							<div class="track">German Call Center </div>
+						</div>
+					</div>
+				</div>
+				<!--  2 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">UX</span>
+							</div>
+							<div class="track">IT Auditor </div>
+						</div>
+					</div>
+				</div>
+				<!--  3 -->
+				<div class="col-12 col-md-6 col-lg-4 mb-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center gap-3">
+							<div class="circle">
+								<span class="circle-text">UX</span>
+							</div>
+							<div class="track">English Call Center </div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
 </div>

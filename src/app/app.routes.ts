@@ -8,6 +8,8 @@ import { InterviewComponent } from './components/interview/interview.component';
 import { AssessmentsComponent } from './components/Assessments/Assessments.component';
 import { NewComponent } from './components/New/New.component';
 import { InterKitComponent } from './components/inter-kit/inter-kit.component';
+import { DesignerComponent } from './designer/designer.component';
+// import { TestWithoutStandaloneComponent } from './components/test-without-standalone/test-without-standalone.component';
 export const routes: Routes = 
 [
 {path:'header',component:HeaderComponent},
@@ -18,6 +20,8 @@ export const routes: Routes =
 {path:'interview',component:InterviewComponent},
 {path:'Assessments',component:AssessmentsComponent},
 {path:'New',component:NewComponent},
-{path:'',component:InterKitComponent},
+{path:'InterKit',component:InterKitComponent},
+{path:'',component:DesignerComponent}
+// {path:'',component:TestWithoutStandaloneComponent},
 
 ];

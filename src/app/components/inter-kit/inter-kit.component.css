@@ -148,12 +148,12 @@
     word-wrap: break-word;
 }
 .content-pag{
-    width: auto; 
+    width: 1570px;
     height: 1080px; 
     padding: 24px; 
     background: white; 
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05); 
-    border: 1px solid; 
+    /* box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05); 
+    border: 1px solid;  */
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start; 
@@ -172,10 +172,101 @@
     display: inline-flex;
 
 }
-.inputfield{
+.dropdown{
+    width: 320px;
+}
+.btn{
+    width: 100%; 
+    height: 44px; 
+    background: white; 
+    color: #101828; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    line-height: 24px; 
+    border: 1px solid #D0D5DD; 
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05); 
+    border-radius: 8px;
+    text-align: left; 
+    padding-left: 14px;
+}
+.input-group{
+    width: 320px; 
+    height: 44px; 
+    padding-left: 14px; 
+    padding-right: 14px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    background: white; 
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05); 
+    border-radius: 8px; 
+    overflow: hidden; 
+    border: 1px #D0D5DD solid; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 8px; 
+    display: inline-flex;
+}
+.input-content{
+    flex: 1 1 0; 
+    height: 24px; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 8px; 
+    display: flex;
+}
+.text-search{
+    color: #667085; 
+    font-size: 16px; 
+    font-family: Inter;
+    font-weight: 400; 
+    line-height: 24px;
+    border: none;
+}
+.department{
+    width: 1384px; 
+    height: 340px; 
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start; 
-    gap: 6px; 
+    gap: 16px; 
     display: inline-flex;
+}
+.comput-it {
+    width: 438px; 
+    color: black; 
+    font-size: 18px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    line-height: 28px; 
+    word-wrap: break-word
+}
+.circle{
+    width: 40px; 
+    height: 40px; 
+    background: linear-gradient(90deg, #E9DEFA 0%, #FFF6EB 100%); 
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.circle-text{
+    color: #475467; 
+    font-size: 16px; 
+    font-family: Inter; 
+    font-weight: 600;
+}
+.track{
+    color: #344054; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 600; 
+}
+.card{
+    width: 100%; 
+    height: 88px; 
+    background: white; 
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05); 
+    border-radius: 12px; 
+    border: 1px solid #D0D5DD;
 }

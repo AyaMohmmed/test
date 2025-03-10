@@ -1,37 +1,29 @@
-import { ApplicationConfig, NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppRoutingModule } from './app-routing.module';
-import { HeaderComponent } from './components/Header/Header.component';
-import { ThanksComponent } from './components/thanks/thanks.component';
-// import { TestComponent } from './components/Dashbord/test.component';
-import { provideRouter } from '@angular/router';
-import { routes } from './app.routes';
-import { provideHttpClient } from '@angular/common/http';
-import { RouterModule } from '@angular/router';
-import { InterKitComponent } from './components/inter-kit/inter-kit.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatSelectModule } from '@angular/material/select';
-import { MatInputModule } from '@angular/material/input';
+// import { MatCardModule } from '@angular/material/card';
+// import { MatButtonModule } from '@angular/material/button';
+// import { MatInputModule } from '@angular/material/input';
+// import { MatFormFieldModule } from '@angular/material/form-field';
+
+import { AppComponent } from './app.component';
+import { TestWithoutStandaloneComponent } from './components/test-without-standalone/test-without-standalone.component';
+import { DesignerComponent } from './designer/designer.component';
 
 
 @NgModule({
-  declarations: [  
-    
-  ],
+  declarations: [	
+      
+   ],
   imports: [
-    BrowserAnimationsModule,
-    MatFormFieldModule,
-    MatSelectModule,
-    MatInputModule,
-    AppRoutingModule,
     BrowserModule,
-    RouterModule
-
+    BrowserAnimationsModule,
+    // MatCardModule,
+    // MatButtonModule,
+    // MatInputModule,
+    // MatFormFieldModule,
   ],
-  bootstrap: [],
-
   providers: [],
+  bootstrap: [],
 })
-export class AppModule { }
+export class AppModule {}
